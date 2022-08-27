@@ -1,0 +1,10 @@
+.App{
+  text-align: center;
+}
+
+.icon{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+  color:orange;
+}
