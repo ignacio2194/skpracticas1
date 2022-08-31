@@ -8,3 +8,23 @@
   font-size: 30px;
   color:orange;
 }
+.icon:hover{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 45px;
+  color:orange;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.products img {
+width: 25%;
+height: 25%;
+margin: 20px;
+
+}
+
+.products_container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
+}

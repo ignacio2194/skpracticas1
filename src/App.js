@@ -7,10 +7,10 @@ function App() {
   const nameEcomerce = "Tienda x"
   return (
     <div className="App">
-    <ItemListContainer  nameEcommerce ={nameEcomerce}/>
-   
-    <NavBar/>
- 
+      <NavBar />
+      <ItemListContainer nameEcommerce={nameEcomerce} />
+
+
     </div>
   );
 }
